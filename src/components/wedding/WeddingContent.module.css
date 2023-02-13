@@ -1,0 +1,13 @@
+.card {
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 19rem);
+  height: 500px;
+  width: 600px;
+  padding: 40px;
+  z-index: 100;
+  overflow: hidden;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  background-color: #e5ddff;
+}
