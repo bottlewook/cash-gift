@@ -16,3 +16,195 @@
   margin: 16px;
   background: rgba(255, 255, 255, 0.3);
 }
+
+/* weddingPage */
+/* .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box .first-btn {
+  margin-top: 100px;
+}
+
+.box footer {
+  position: fixed;
+  bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.box p {
+  font-family: "Noto Serif KR", serif;
+  font-size: 20px;
+  animation-name: content;
+  animation-duration: 0.9s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+
+
+
+@keyframes content {
+  0% {
+    margin-left: 300px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+*/
+
+.box img {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.box .first_btn {
+  position: absolute;
+  top: 420px;
+}
+
+.box .content_img {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+
+  animation-name: weddingcar;
+  animation-direction: normal;
+  animation-duration: 0.8s;
+}
+
+.box .content {
+  position: absolute;
+  font-family: "Noto Serif KR", serif;
+  font-size: 20px;
+  top: 340px;
+  width: 418px;
+  text-align: center;
+
+  animation-name: content;
+  animation-direction: normal;
+  animation-duration: 1.2s;
+}
+
+.box .money_box {
+  width: 418px;
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  top: 350px;
+  font-family: "Nanum Pen Script", cursive;
+
+  animation-name: money_box;
+  animation-direction: normal;
+  animation-duration: 1s;
+}
+
+.box button {
+  margin-top: 10px;
+  width: 418px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  background-color: #c3e2dd;
+  font-family: "Noto Serif KR", serif;
+}
+
+.box button:hover {
+  background-color: #6eceda;
+  transition: 1s;
+}
+
+.box button:active {
+  background-color: #e5c1c5;
+}
+
+.box .btn_1 {
+  position: absolute;
+  top: 420px;
+
+  animation-name: btn_1;
+  animation-direction: normal;
+  animation-duration: 1.6s;
+}
+
+.box .btn_2 {
+  position: absolute;
+  top: 480px;
+
+  animation-name: btn_2;
+  animation-direction: normal;
+  animation-duration: 2s;
+}
+
+.box .loading {
+  position: absolute;
+  top: 160px;
+  left: 170px;
+  font-size: 40px;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+@keyframes weddingcar {
+  0% {
+    left: 300px;
+  }
+
+  100% {
+    left: 100px;
+  }
+}
+
+@keyframes content {
+  0% {
+    left: 300px;
+  }
+
+  100% {
+    left: 40px;
+  }
+}
+
+@keyframes btn_1 {
+  0% {
+    left: 300px;
+  }
+
+  100% {
+    left: 40px;
+  }
+}
+
+@keyframes btn_2 {
+  0% {
+    left: 300px;
+  }
+
+  100% {
+    left: 40px;
+  }
+}
+
+@keyframes money_box {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 350px;
+  }
+}

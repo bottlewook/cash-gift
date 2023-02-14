@@ -4,6 +4,8 @@ import WeddingContent from "./components/wedding/WeddingContent";
 import Home from "./pages/Home";
 import InitialPage from "./pages/InitialPage";
 
+import "./App.css";
+
 const App = () => {
   return (
     <Fragment>
